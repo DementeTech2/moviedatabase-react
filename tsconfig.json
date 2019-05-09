@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "module": "commonjs",
+        "outDir": "./build/back/",
+        "target": "es5",
+        "lib": ["dom", "es2015"],
+        "jsx": "react",
+        "allowJs": true,
+        "pretty": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include": [
+        "./src/back/**/*"
+    ]
+}

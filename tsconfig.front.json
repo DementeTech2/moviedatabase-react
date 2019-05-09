@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "module": "commonjs",
+        "outDir": "./dist/front",
+        "target": "es5",
+        "lib": ["dom", "es2015"],
+        "jsx": "react",
+        "allowJs": true,
+        "pretty": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include": [
+        "./src/front/*",
+        "./src/front/**/*"
+    ]
+}
